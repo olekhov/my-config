@@ -5,7 +5,8 @@ echo "Setting up for [31;1mDebian[0m"
 # Build tools
 sudo apt-get update
 sudo apt-get install build-essential git
-sudo apt-get install make cmake ninja clang gdb lldb
+sudo apt-get install make cmake ninja-build clang gdb lldb
+sudo apt-get install curl gettext
 
 # Shell
 sudo apt-get install zsh
@@ -21,6 +22,8 @@ cargo install eza bat du-dust bottom starship ripgrep
 sudo apt-get install \
     bspwm polybar sxhkd dmenu \
     xsel xclip xdotool feh nsxiv maim \
+    libjpeg-progs imagemagick \
+    tesseract-ocr tesseract-ocr-eng tesseract-ocr-rus tesseract-ocr-ell \
     zathura zathura-ps zathura-pdf-poppler zathura-djvu \
     firefox-esr libreoffice \
     blueman network-manager-applet
@@ -34,8 +37,6 @@ sudo apt-get install \
 mkdir $HOME/soft
 
 # Install neovim
-sudo apt-get install ninja-build gettext cmake curl build-essential
-
 cd $HOME/soft
 git clone --depth=1 https://github.com/neovim/neovim
 cd neovim

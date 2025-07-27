@@ -1,0 +1,25 @@
+[Default Applications]
+x-scheme-handler/http=firefox-esr.desktop
+x-scheme-handler/https=firefox-esr.desktop
+x-scheme-handler/chrome=firefox-esr.desktop
+text/html=firefox-esr.desktop
+application/x-extension-htm=firefox-esr.desktop
+application/x-extension-html=firefox-esr.desktop
+application/x-extension-shtml=firefox-esr.desktop
+application/xhtml+xml=firefox-esr.desktop
+application/x-extension-xhtml=firefox-esr.desktop
+application/x-extension-xht=firefox-esr.desktop
+x-scheme-handler/tonsite=org.telegram.desktop._83f9b63be1bde32c054a73d9650a9d18.desktop
+
+[Added Associations]
+x-scheme-handler/http=firefox-esr.desktop;
+x-scheme-handler/https=firefox-esr.desktop;
+x-scheme-handler/chrome=firefox-esr.desktop;
+text/html=firefox-esr.desktop;
+application/x-extension-htm=firefox-esr.desktop;
+application/x-extension-html=firefox-esr.desktop;
+application/x-extension-shtml=firefox-esr.desktop;
+application/xhtml+xml=firefox-esr.desktop;
+application/x-extension-xhtml=firefox-esr.desktop;
+application/x-extension-xht=firefox-esr.desktop;
+x-scheme-handler/tonsite=org.telegram.desktop._83f9b63be1bde32c054a73d9650a9d18.desktop;

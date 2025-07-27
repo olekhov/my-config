@@ -1,0 +1,11 @@
+set history save on
+set debuginfod enabled off
+
+define xxd
+dump binary memory /tmp/dump.bin $arg0 $arg0+$arg1
+shell hexdump -C /tmp/dump.bin
+shell rm /tmp/dump.bin
+end
+
+set disassembly-flavor intel
+set history save on

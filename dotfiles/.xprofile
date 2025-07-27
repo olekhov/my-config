@@ -1,0 +1,10 @@
+#!/bin/sh
+source ${HOME}/.profile
+
+
+export EDITOR=$HOME/.local/bin/nvim
+export PATH=$PATH:~/.local/bin:~/.cargo/bin
+export GNUPGHOME=$HOME/mykeychain
+
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
